@@ -1,0 +1,88 @@
+/* Main CSS file for the Grades system */
+
+html {
+	background: #9ee0c0; 
+	background: linear-gradient(to bottom, #9ee0c0 0%,#fffa9b 100%)
+		no-repeat center center fixed;
+	background-size: fill;
+}
+
+body {
+	font-family: "Helvetica","Arial",sans-serif;
+}
+
+html, body, div {
+	/* Disable default padding and margin on these elements */
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: #222;
+	padding: 0.5em;
+}
+
+nav h1 {
+	font-size: 1.5em;
+	line-height: 1;
+	margin: 0;
+	color: #F00;
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	color: #ccc;
+	text-decoration: none;
+	line-height: 1.5;
+	margin-left: 2em;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+
+div.content {
+	margin: 1em 20em;
+	background: #ffffff;
+	padding: 1em;
+}
+
+div.content h1 {
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	border: 1px solid #000;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+form ul {
+	display: table;
+}
+
+form ul li {
+	display: table-row;
+}
+
+form ul li label {
+	display: table-cell;
+	padding-right: 1em;
+}
+
+div.warning {
+	text-align: center;
+	background-color: #f00;
+	color: #fff;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 10em;
+	font-size: 0.8em;
+}
